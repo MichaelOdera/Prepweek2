@@ -9,6 +9,7 @@ function myFunction() {
             female = document.getElementById("female").checked;
 
             //Variable that hold the calculation of the day of the week
+            var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
             var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", " Koffi", "Kwame"];
             var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
             var dayChosen;
@@ -25,14 +26,14 @@ function myFunction() {
 
                 //checking if the radio button is checked for male and display appropriate name
                 if (male) {
-                    alert("Your male Akan Name is " + maleNames[calculateDayIndex()]);
+                    alert("Your were born on a " + weekDays[calculateDayIndex()]);
                     document.getElementById("display").innerHTML = "Your male Akan Name is " + maleNames[calculateDayIndex()];
                     document.getElementById("display").style.color = "#D2C0AE";
                     document.getElementById("display").style.padding = "2%";
                 }
                 else {
                     //display appropriate name if someone choses female
-                    alert("Your female Akan name is " + femaleNames[calculateDayIndex()]);
+                    alert("Your were born on a " + weekDays[calculateDayIndex()]);
                     document.getElementById("display").innerHTML = "Your female Akan Name is " + femaleNames[calculateDayIndex()];
                     document.getElementById("display").style.color = "#D2C0AE";
                     document.getElementById("display").style.padding = "2%";
