@@ -7,6 +7,8 @@ html, body{
     background-image: url('https://images.pexels.com/photos/861311/pexels-photo-861311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-repeat: no-repeat;
     flex-direction: column;
+    bottom: 0;
+    background-size: cover;
 
 }
 .formcontainer{
@@ -25,15 +27,16 @@ html, body{
 h1{
     text-align: center;
 }
-p{
+h4{
     text-align: center;
-    color: #222D2C;
-    background-color: white;
+    color: white;
+    background-color: #A46C2B;
     width: 60%;
     margin-left: 15%;
     padding: 1%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 form{
@@ -72,9 +75,11 @@ button:hover{
     background-color: #7E643A;
     outline: none;
 }
-h3{
+h5{
     font-size: 70px;
     color: #D2C0AE;
     background-color: #7E643A;
     text-align: center;
+    border-radius: 10px;
+    border-top: 4px solid black;
 }
