@@ -27,17 +27,15 @@ function myFunction() {
                 if (male) {
                     alert("Your male Akan Name is " + maleNames[calculateDayIndex()]);
                     document.getElementById("display").innerHTML = "Your male Akan Name is " + maleNames[calculateDayIndex()];
-                    document.getElementById("display").style.color = "red";
-                    document.getElementById("display").style.border = "3px solid black";
-                    document.getElementById("display").style.padding = "3%";
+                    document.getElementById("display").style.color = "#A46C2B";
+                    document.getElementById("display").style.padding = "2%";
                 }
                 else {
                     //display appropriate name if someone choses female
                     alert("Your female Akan name is " + femaleNames[calculateDayIndex()]);
                     document.getElementById("display").innerHTML = "Your female Akan Name is " + femaleNames[calculateDayIndex()];
-                    document.getElementById("display").style.color = "red";
-                    document.getElementById("display").style.border = "3px solid black";
-                    document.getElementById("display").style.padding = "3%";
+                    document.getElementById("display").style.color = "#A46C2B";
+                    document.getElementById("display").style.padding = "2%";
 
                 }
 
