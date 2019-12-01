@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<title>Akan Naming</title>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="copy.css">
+    <script type="text/javascript" src="jorg.js"></script>
+
 </head>
+
 <body>
-    <form>
-        
+    <form name="myForm">
+        <h1>AKAN NAMING</h1>
+        <div class="formcontainer">
+            <div class="container">
+                <label for="year"><strong>Enter your year of Birth</strong></label><br>
+                <input type="number" placeholder="year of birth" id="year" name="year" required>
+                <label for="month"><strong>Enter your month of Birth</strong></label><br>
+                <input type="number" placeholder="month of birth" id="month" name="month" required>
+                <label for="date"><strong>Enter your date of Birth</strong></label><br>
+                <input type="number" placeholder="date of birth" id="date" name="date" required>
+                <h4>Choose Your Gender</h4>
+                <label for="gender">Male</label><br>
+                <input type="radio" name="gender" id="male"><br>
+                <label for="gender">Female</label><br>
+                <input type="radio" name="gender" id="female">
+            </div>
+            <button type="button" onclick="myFunction()"><strong>SUBMIT DETAILS</strong></button>
+        </div>
     </form>
+    <h3 id="display"></h3>
 </body>
+
 </html>
+
