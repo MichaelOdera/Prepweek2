@@ -30,6 +30,8 @@ h1{
 form{
     border: 6px solid lightgray;
     width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
 }
 
 input[type=number]{
@@ -38,6 +40,7 @@ input[type=number]{
     margin: 7px;
     display: inline-block;
     box-sizing: border-box;
+    background-color: lightgray;
 }
 label{
     margin-top: 3%;
