@@ -44,6 +44,7 @@ input[type=number]{
     display: inline-block;
     box-sizing: border-box;
     background-color: lightgray;
+    text-align: center;
 }
 label{
     margin-top: 1%;
