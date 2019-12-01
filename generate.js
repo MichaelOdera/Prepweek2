@@ -43,7 +43,7 @@ function myFunction() {
             }
 
             //Check if the year input field has been populated correctly
-            if (yearOb != "" && yearOb != null && yearOb > 0) {
+            if (yearOb != "" && yearOb != null && yearOb > 0 && yearOb.length < 5) {
                 //Check if the month input field has been populated or correctly populated
                 if (monthOb != "" && monthOb != null && monthOb > 0 && monthOb < 13) {
                     //Check if the date input field has correctly been populated
