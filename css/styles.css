@@ -25,13 +25,21 @@ html, body{
 h1{
     text-align: center;
 }
+p{
+    text-align: center;
+    color: #222D2C;
+    background-color: #D2C0AE;
+    width: 60%;
+    margin-left: 15%;
+}
 
 form{
-    border: 6px solid lightgray;
+    border: 6px solid #D2C0AE;
     width: 90%;
     background: rgba(0, 0, 0, 0.7);
     color: white;
     border-radius: 12px;
+    padding-left: 5%;
 }
 
 input[type=number]{
@@ -55,9 +63,11 @@ button{
     background-color: #A46C2B;
     color: #D2C0AE;
     border-radius: 10px;
+    outline: none;
 }
 button:hover{
     background-color: #7E643A;
+    outline: none;
 }
 h3{
     font-size: 70px;
