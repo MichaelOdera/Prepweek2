@@ -63,4 +63,4 @@ If you encounter any issues, you may contact me through michogelira@gmail.com or
 
 
 ### License
-Copyright (c) {2019} **MIT**
+Copyright (c) 2019 [MIT](license.html)
