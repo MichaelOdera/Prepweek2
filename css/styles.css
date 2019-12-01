@@ -28,9 +28,12 @@ h1{
 p{
     text-align: center;
     color: #222D2C;
-    background-color: #D2C0AE;
+    background-color: white;
     width: 60%;
     margin-left: 15%;
+    padding: 1%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 form{
