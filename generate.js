@@ -78,7 +78,7 @@ function myFunction() {
                     }
                     //Throw an error if the date input field has not been populated correctly
                     else {
-                        alert("Please enter the date of birth: ");
+                        alert("Please enter the valid date of birth: ");
                         document.getElementById("date").style.border = "2px solid red";
                         document.myForm.date.focus();
                         return false;
@@ -87,7 +87,7 @@ function myFunction() {
                 }
                 //Throw an error if the month input field has not been populated correctly
                 else {
-                    alert("Please enter your month of birth");
+                    alert("Please enter valid month of birth");
                     document.getElementById("month").style.border = "2px solid red";
                     document.myForm.month.focus();
                     return false;
@@ -96,7 +96,7 @@ function myFunction() {
             }
             //Throw an error if the year field has not been populated correctly
             else {
-                alert("Please enter your year of birth");
+                alert("Please enter valid year of birth");
                 document.getElementById("year").style.border = "2px solid red";
                 document.myForm.year.focus();
                 return false;
