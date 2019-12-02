@@ -34,6 +34,7 @@ Friday: Afua
 Saturday: Ama
 
 ## Live Link
+https://michaelodera.github.io/Prepweek2/
 
 
 ## Troubleshooting
