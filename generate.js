@@ -26,7 +26,7 @@ function myFunction() {
 
                 //checking if the radio button is checked for male and display appropriate name
                 if (male) {
-                    alert("Your were born on a " + weekDays[calculateDayIndex()]);
+                    alert("Your were born on a " + weekDays[calculateDayIndex()]+" "+"Scroll to the bottom of the page to see your Akan name");
                     document.getElementById("check").innerHTML = "Check Down here &#8595;";
                     document.getElementById("check").style.color="red";
                     document.getElementById("display").innerHTML = "Your male Akan Name is " + maleNames[calculateDayIndex()];
@@ -35,7 +35,7 @@ function myFunction() {
                 }
                 else {
                     //display appropriate name if someone choses female
-                    alert("Your were born on a " + weekDays[calculateDayIndex()]);
+                    alert("Your were born on a " + weekDays[calculateDayIndex()]+" "+"Scroll to the bottom of the page to see your Akan name");
                     document.getElementById("check").innerHTML = "Check Down here &#8595;"; 
                     document.getElementById("check").style.color="red";    
                     document.getElementById("display").innerHTML = "Your female Akan Name is " + femaleNames[calculateDayIndex()];
@@ -47,7 +47,7 @@ function myFunction() {
             }
 
             //Check if the year input field has been populated correctly
-            if (yearOb != "" && yearOb != null && yearOb > 0 && yearOb < 2020) {
+            if (yearOb != "" && yearOb != null && yearOb > 0 && yearOb < 2050) {
                 //Check if the month input field has been populated or correctly populated
                 if (monthOb != "" && monthOb != null && monthOb > 0 && monthOb < 13) {
                     //Check if the date input field has correctly been populated
