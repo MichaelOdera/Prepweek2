@@ -26,7 +26,7 @@ function myFunction() {
 
                 //checking if the radio button is checked for male and display appropriate name
                 if (male) {
-                    alert("Your were born on a " + weekDays[calculateDayIndex()]+ " Click okay and your Akan name will appear at the bottom of the page.");
+                    alert("Your were born on a " + weekDays[calculateDayIndex()]+ " CLICK OKAY and your Akan name will appear at the bottom of the page.");
                     document.getElementById("check").innerHTML = "Check Down here &#8595;";
                     document.getElementById("check").style.color="red";
                     document.getElementById("display").innerHTML = "Your male Akan Name is " + maleNames[calculateDayIndex()];
@@ -35,7 +35,7 @@ function myFunction() {
                 }
                 else {
                     //display appropriate name if someone choses female
-                    alert("Your were born on a " + weekDays[calculateDayIndex()]+" Click okay and your Akan name will appear at the bottom of the page.");
+                    alert("Your were born on a " + weekDays[calculateDayIndex()]+" CLICK OKAY and your Akan name will appear at the bottom of the page.");
                     document.getElementById("check").innerHTML = "Check Down here &#8595;"; 
                     document.getElementById("check").style.color="red";    
                     document.getElementById("display").innerHTML = "Your female Akan Name is " + femaleNames[calculateDayIndex()];
